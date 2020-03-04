@@ -13,4 +13,4 @@ try:
     print(pay)
 
 except:
-    print("please input a numeric value")
+    print("Error, please enter numeric input")
