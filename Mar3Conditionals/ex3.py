@@ -2,7 +2,7 @@ score=input("Enter a score: ")
 
 try:
     float(score)
-    
+
 except:
     print("Bad Score")
 
@@ -16,7 +16,7 @@ elif score >= 0.7:
     print("C")
 elif score >= 0.6:
     print("D")
-elif score < 0.6:
+elif score >= 0:
     print("F")
 else:
     print("Bad Score")

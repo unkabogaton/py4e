@@ -10,7 +10,7 @@ def computegrade(score):
         return "C"
     elif score >= 0.6:
         return "D"
-    elif score < 0.6:
+    elif score >= 0:
         return "F"
     else:
         return "Bad Score"
