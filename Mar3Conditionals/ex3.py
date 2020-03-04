@@ -1,10 +1,8 @@
 score=input("Enter a score: ")
-
 try:
-    float(score)
-
+    score=float(score)
 except:
-    print("Bad Score")
+    print(str("Bad Score"))
 
 if score > 1.0:
     print("Bad Score")

@@ -1,16 +1,19 @@
-
 hours=input("Enter Hours: ")
-rate=input("Enter Rate: ")
+try :
+    hours=float(hours)
+except :
+    print('Error, please enter numeric input')
+ 
 
-try:
-    float(hours)
-    float(rate)
-    if hours > 40:
-        pay=(hours-40)*1.5*rate+40*rate
-    else:
-        pay=hours*rate
-    float(pay)
-    print(pay)
+rate = input("Enter Rate: ")
+try :
+    rate=float(rate)
+except :
+    print('Error, please enter numeric input')
 
-except:
-    print("Error, please enter numeric input")
+
+if hours>40:
+    pay=(hours-40)*1.5*rate+40*rate
+else:
+    pay=hours*rate
+print(pay)

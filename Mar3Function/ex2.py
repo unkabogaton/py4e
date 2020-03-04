@@ -1,4 +1,4 @@
-score=input("Enter a score: ")
+score=float(input("Enter a score: "))
 def computegrade(score):
     if score > 1.0:
         return "Bad Score"
