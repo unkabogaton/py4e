@@ -1,7 +1,7 @@
 hours=input("Enter Hours: ")
-rate=input("Enter Rate: ")
 try:
     hours=float(hours)
+    rate=input("Enter Rate: ")
     rate=float(rate)
 except:
     print("Error, please enter numeric input.")

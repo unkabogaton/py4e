@@ -20,6 +20,5 @@ def computegrade(score):
         return "F"
     else:
         return "Bad Score"
-
 x=computegrade(score)
 print (x)

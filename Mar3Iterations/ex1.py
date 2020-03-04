@@ -1,14 +1,14 @@
-count=0
 sum=0
-num=''
+count=0
 
-while(num!="done"):
-    input("Enter number here: ")
+while True:
     try:
-        num = int(num)
+        n=input("Enter a number: ")
+        if (n=="done"): 
+            break
+        n=int(n)
+        sum=sum+n
+        count=count+1
     except:
-        print("bad data")
-        continue
-    sum = sum + num
-    count = count + 1
+        print("Invalid input")
 print (sum, count, sum/count)
