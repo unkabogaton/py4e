@@ -2,16 +2,16 @@ sum=0
 count=0
 
 while True:
+    n=input("Enter a number: ")
     try:
-        n=input("Enter a number: ")
-        if (n=="done"):
-            break
         n=int(n)
-        sum=sum+n
-        count=count+1
     except:
-        print("Invalid input")
+        if n=='done':
+            break
+        else:
+            print ('Invalid Input')
+            continue
+    sum=sum+n
+    count=count+1
 
-print ("Sum: " + str(sum))
-print ("Count: " + str(count))
-print ("Average: " + str(sum/count))
+print(sum,count,sum/count)

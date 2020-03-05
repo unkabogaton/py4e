@@ -1,7 +1,12 @@
 hours=input("Enter Hours: ")
 try:
     hours=float(hours)
-    rate=input("Enter Rate: ")
+except:
+    print("Error, please enter numeric input.")
+    exit()
+
+rate=input("Enter Rate: ")
+try:
     rate=float(rate)
 except:
     print("Error, please enter numeric input.")
