@@ -10,3 +10,12 @@ type(i)
 >> <class 'int'>  - type is use to know the type of data stored in a variabe, 
      it is either integer 'int' or string 'str'
      
+
+
+try:
+(put the conditon here)
+except:
+(put the condition here)
+exit()
+
+
