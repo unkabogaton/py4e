@@ -19,3 +19,15 @@ except:
 exit()
 
 
+break - stops or exit to iteration
+
+continue - stop the current iteration and kumos to top of the loop and Starts 
+ next iteration
+
+
+is - is used in logical operator, stronger than equal =
+   - use onlin in None and False
+is not - kabalikataran ng is
+
+
+
