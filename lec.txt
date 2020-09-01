@@ -1,0 +1,60 @@
+import Vue from 'vue'
+import Router from 'vue-router'
+import Skills from './components/Skills.vue'
+import About from './'
+
+Vue.use(Router)
+
+export default new Router({
+  routes: [
+    {
+      path: '/',
+      name: 'skills',
+      component: Skills
+    },
+    {
+      path: '/about/:name',
+      name: 'about',
+      component: About
+    }
+  ]
+})
+
+pwd - to make sure you are inside the working directory
+django-admin startproject wisdompets     -  "wisdompets" is the name of yor prject
+   - then there will be a directory named the name of yoour project which is "wisdompets"
+cd wisdompets
+
+do not edit!!!!!
+-manage.py
+-_init_.py
+-wsgi.py - the server included in the framework
+
+DO edit
+ettings.pyu
+urls.py
+
+python manage.py runserver         -to run the server
+  ------then you will be noticed to go to the localhost:
+  --------you shoud see a rocketship
+
+-- creating app --
+python manage.py startapp app_name   - should be run in the root folder
+sex=caharacter
+
+
+python manage.py  --- to migrate
+
+python manage.py shell
+
+260
+262
+263 -- info systems
+264 -- micro controllers  
+265
+266 -- databases
+267
+
+
+Hi,
+I would like to ask what are the jdnnke ekeneekw skwnsiwnsskkwndkdnndndnndnndnndndkdnekddnkndkdndkd

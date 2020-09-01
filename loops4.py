@@ -8,6 +8,7 @@ for n in num:
     if n > largest:
         largest = n
 print('largest is', largest)
+print(max(num))
 
 #2.counting num components
 count = 0
